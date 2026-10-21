@@ -1,0 +1,307 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Portfolio Website - BEZA</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#technical-skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+
+<div class="header-text">
+    <p>Software Engineering Student | Frontend Developer</p>
+    <h1>
+        Hi, I'm <span>Bezawit Amogne</span><br>
+        I Build Modern Web Experiences
+    </h1>
+</div>
+
+    </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+
+            <div class="about-col-1">
+                <img src="image/bez.png" alt="Bezawit Amogne">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+
+                <p>
+               I am a fourth-year Software Engineering student at Bahir Dar University with a strong interest in web development. I specialize in frontend development and am expanding my expertise in modern web technologies. My goal is to build scalable, user-friendly applications that solve real-world problems.
+
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <!-- Skills -->
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Frontend Development</span> - HTML5, CSS3, JavaScript, React</li>
+        <li><span>Backend Development</span> - Node.js, Express.js, REST APIs</li>
+        <li><span>Database Management</span> - MySQL, SQL</li>
+        <li><span>Programming Languages</span> - Java, C++</li>
+        <li><span>Tools & Technologies</span> - Git, GitHub, Responsive Web Design</li>
+        <li><span>UI Design</span> - User-Friendly and Responsive Interfaces</li>
+    </ul>
+</div>
+<div class="tab-contents" id="experience">
+    <ul>
+        <li>
+            <span>2024 - Present</span>
+            Web Development & Practical Projects — Building responsive websites and web applications using modern web technologies.
+        </li>
+        <li>
+            <span>2023 - Present</span>
+            Academic & Team Projects — Collaborating on software development projects to strengthen programming, problem-solving, and teamwork skills.
+        </li>
+    </ul>
+</div>
+                <!-- Education -->
+             <div class="tab-contents" id="education">
+                    <ul>
+<li>
+    <span>2023 - Present</span>
+    Fourth-Year Software Engineering Student at Bahir Dar University (BDU), expected to graduate in 2027.
+</li>
+
+
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ================= SERVICES ================= -->
+<section id="services">
+
+    <div class="container">
+
+        <h1 class="sub-title">What I Can Do</h1>
+
+        <p class="section-description">
+            My interests and areas of practical development.
+        </p>
+
+        <div class="services-list">
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+
+                <h2>Frontend Development</h2>
+
+                <p>
+                    Creating structured, responsive web pages
+                    using HTML, CSS, JavaScript, and React.
+                </p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-pen-ruler"></i>
+
+                <h2>UI Design</h2>
+
+                <p>
+                    Designing clean, consistent interfaces
+                    that make websites easier to navigate and use.
+                </p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-database"></i>
+
+                <h2>Web Application Development</h2>
+
+                <p>
+                    Building interactive web applications and
+                    connecting them to databases using Node.js and MySQL.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECTS / PORTFOLIO ================= -->
+<div id="portfolio">
+    <div class="container">
+
+        <h1 class="sub-title">My Projects</h1>
+
+        <div class="work-list">
+
+            <div class="work">
+                <img src="image/work-6.png" alt="Food Cart Website">
+                <div class="layer">
+                    <h3>Food Cart Website</h3>
+                    <p>Built using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/work-4.png" alt="Worker Employer Platform">
+                <div class="layer">
+                    <h3>Worker-Employer Platform</h3>
+                    <p>Built using HTML, CSS, JavaScript, React, and Node.js.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/work-5.png" alt="Construction Tools Platform">
+                <div class="layer">
+                    <h3>Construction Tools Platform</h3>
+                    <p>Built using HTML, CSS, JavaScript, and React.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/work-1.png" alt="Calculator Web App">
+                <div class="layer">
+                    <h3>Calculator Web App</h3>
+                    <p>Built using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/work-7.png" alt="MoM and Baby pakcage">
+                <div class="layer">
+                    <h3>MoM and Baby pakcage</h3>
+                    <p>Built using ract,node,mongodb</p>
+                </div>
+            </div>
+
+            
+            <div class="work">
+                <img src="image/todo.png" alt="To-Do List Project">
+                <div class="layer">
+                    <h3>Smart To-Do List Web App</h3>
+                    <p>
+                        A task management web application built using
+                        HTML, CSS, and JavaScript.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/work-2.png" alt="Travel Planner Website">
+                <div class="layer">
+                    <h3>Travel Planner Website</h3>
+                    <p>Created using HTML, CSS, JavaScript, and PHP.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/work-3.png" alt="Other Projects">
+                <div class="layer">
+                    <h3>Other Projects</h3>
+                    <p>Hotel Website, Portfolio Website, and Database System Projects.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= CONTACT ================= -->
+<div id="contact">
+    <div class="container">
+
+        <h1 class="sub-title">Contact Me</h1>
+<div class="contact-info">
+
+    <!-- Email -->
+    <p>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:bezawitamogne463@gmail.com">
+            bezaamogne463@gmail.com
+        </a>
+    </p>
+
+    <!-- GitHub -->
+    <p>
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/Bezawit-Amogne" target="_blank" rel="noopener noreferrer">
+            github.com/Bezawit-Amogne
+        </a>
+    </p>
+
+    <!-- LinkedIn -->
+    <p>
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+            www.linkedin.com/in/bezawit-amogne-4a48713b4
+        </a>
+    </p>
+
+</div>
+ </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 Bezawit Amogne | Software Engineering Student</p>
+</footer>
+
+<!-- ================= JAVASCRIPT ================= -->
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+
+    for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+
+    for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+</body>
+
+</html>
+
